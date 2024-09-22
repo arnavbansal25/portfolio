@@ -30,6 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import accuknox from "./company/accuknox.png"
+import strideahead from "./company/strideahead.png";
+import deskera from "./company/deskera.png";
+
 export {
   logo,
   backend,
@@ -59,4 +63,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  accuknox,
+  strideahead,
+  deskera,
 };

@@ -15,14 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  accuknox,
+  strideahead,
+  deskera
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +41,23 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "ReactJs Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "React Native Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "NodeJs Developer",
+    icon: creator,
+  },
+  {
+    title: "Skilled Writer",
     icon: creator,
   },
 ];
@@ -108,107 +111,100 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "ReactJs Developer",
+    company_name: "Accuknox",
+    icon: accuknox,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "December 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Optimizing application flow through code refactoring, seamless API integration, and comprehensive testing.",
+      "Adapting to scalable methodologies and writing efficient code to meet constantly changing product requirements, while ensuring standardization across a team of 10+ developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Developer",
+    company_name: "Stride Ahead",
+    icon: strideahead,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Maintaining extensive code-bases with media, reduced rework by 30% with streamlined development processes.",
+      "Handled deployment on AWS EC2 Linux instances using GitHub CI/CD pipelines.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Product Development Intern",
+    company_name: "Deskera",
+    icon: deskera,
+    iconBg: "#383E56",
+    date: "July 2021 - September 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built an Automated Timesheet system with GPS and Image Capture.",
+      "Assisted Backend Team in API structuring (SpringBoot) and PostgreSQL management.",
     ],
   },
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+  //   name: "Sara Lee",
+  //   designation: "CFO",
+  //   company: "Acme Co",
+  //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ReTube",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A highly performant Video Streaming app with real-time YT api data & Config Driven UI. Optimized using Chunking, Caching, Shimmer UI and Debounced Search. Advanced features like Live Chat, Google Auth, Nested Comments.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "google search",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "live chat",
+        color: "pink-text-gradient",
       },
       {
         name: "tailwind",
@@ -219,20 +215,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Mood Music",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A completely client side web app for personalized song recommendations utilizing Live Webcam Feed (analyze and Detect User Emotions in Real-Time) and Weather Detection to capture location-specific data with engaging visuals.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "face-api",
         color: "pink-text-gradient",
       },
     ],
@@ -240,20 +236,53 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Private",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A completely client-side web app for transforming images over the internet using encryption and steganography.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Distributed HyperParameter Tuning",
+    description:
+      "Accelerating the process of Hyper-parameter optimization using High-performance containerized systems (Docker).",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "green-text-gradient",
+      },
+      {
+        name: "keras",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
