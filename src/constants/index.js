@@ -21,7 +21,10 @@ import {
   threejs,
   accuknox,
   strideahead,
-  deskera
+  deskera,
+  mern,
+  reactNative,
+  aws,
 } from "../assets";
 
 export const navLinks = [
@@ -41,23 +44,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Fullstack Web Developer",
-    icon: web,
+    title: "Fullstack Web Developer MERN",
+    icon: mern,
   },
   {
-    title: "ReactJs Developer",
-    icon: mobile,
+    title: "Mobile Developer React Native",
+    icon: reactNative,
   },
   {
-    title: "React Native Developer",
-    icon: backend,
+    title: "Cloud Engineer AWS",
+    icon: aws,
   },
   {
-    title: "NodeJs Developer",
-    icon: creator,
-  },
-  {
-    title: "Skilled Writer",
+    title: "Skilled Writer Technical Blogs",
     icon: creator,
   },
 ];
@@ -211,8 +210,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image:
+      "https://private-user-images.githubusercontent.com/45120883/376360555-aeb0afb6-a3e8-4b79-81ad-0f012b10e7ea.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjg5MzM0NjMsIm5iZiI6MTcyODkzMzE2MywicGF0aCI6Ii80NTEyMDg4My8zNzYzNjA1NTUtYWViMGFmYjYtYTNlOC00Yjc5LTgxYWQtMGYwMTJiMTBlN2VhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE0VDE5MTI0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVjNDM3NDRhNTVhNjFkOWI4MWJmYzgyODJiNjNmMjNkMWZkNThkYzY3NGIyY2Q2MTgwNTE3YzI1ZjhmMWYzYzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.BuG1SC9RMR3qyCrwoZN2_eB45pkE8U8gZ3Wc-v_OoYg",
+    source_code_link: "https://github.com/arnavbansal25/retube",
+    demo_link: "https://ab-retube.netlify.app/",
   },
   {
     name: "Mood Music",
@@ -232,8 +233,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image:
+      "https://raw.githubusercontent.com/arnavbansal25/mood-music/refs/heads/main/screenshots/interface1.png",
+    source_code_link: "https://github.com/arnavbansal25/mood-music",
+    demo_link: "https://mood-music-ab.netlify.app/",
   },
   {
     name: "Private",
@@ -253,8 +256,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image:
+      "https://private-user-images.githubusercontent.com/45120883/376359260-a461d403-1207-4f26-9c75-6c711f66083a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjg5MzMwNDIsIm5iZiI6MTcyODkzMjc0MiwicGF0aCI6Ii80NTEyMDg4My8zNzYzNTkyNjAtYTQ2MWQ0MDMtMTIwNy00ZjI2LTljNzUtNmM3MTFmNjYwODNhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE0VDE5MDU0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk0NTAwMTY5NjdiYjFiNjVkN2U1MWQyZDBmNTE3ZTgyMzZlMGFkMDA5ZDgyNTQ0NDE5YzliZmRkOWZjYWQxMTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.dMz6nFri1G6hMQclMsixyc_pTKzhslkfdjDU0_Iqi7w",
+    source_code_link: "https://github.com/arnavbansal25/private",
+    demo_link: "https://private-ab.netlify.app/",
   },
   {
     name: "Distributed HyperParameter Tuning",
@@ -286,8 +291,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image:
+      "https://private-user-images.githubusercontent.com/45120883/376359745-81ca4ef8-23e8-422e-a4db-b63b35372709.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjg5MzM2MjIsIm5iZiI6MTcyODkzMzMyMiwicGF0aCI6Ii80NTEyMDg4My8zNzYzNTk3NDUtODFjYTRlZjgtMjNlOC00MjJlLWE0ZGItYjYzYjM1MzcyNzA5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE0VDE5MTUyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZjMmJlZmQyZWYzNmI1ODA0NTkxYWM4Y2UzNDJhMjZiZTYxY2Y3ZjcwOTcyMTQ3ZGYwZGY3MjNlNWMyZjRhNDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.xwWjCy3aZLt3ahXOHNU8T6K9kg-vspbXXfQvpXUsIFA",
+    source_code_link:
+      "https://github.com/arnavbansal25/distributed-hyperparameter-tuning",
+    demo_link: "https://www.youtube.com/watch?v=RM_JSDS5NuY",
   },
 ];
 

@@ -6,6 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import mern from "./mern.webp";
+import reactNative from "./react-native.png";
+import aws from "./aws.jpeg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -30,9 +33,15 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import accuknox from "./company/accuknox.png"
+import accuknox from "./company/accuknox.png";
 import strideahead from "./company/strideahead.png";
 import deskera from "./company/deskera.png";
+
+import linkedin from "./socials/linkedin.svg";
+import githubSvg from "./socials/github.svg";
+import medium from "./socials/medium.svg";
+
+import liveWeb from "./liveweb.png"
 
 export {
   logo,
@@ -66,4 +75,11 @@ export {
   accuknox,
   strideahead,
   deskera,
+  mern,
+  reactNative,
+  aws,
+  linkedin,
+  githubSvg,
+  medium,
+  liveWeb
 };
