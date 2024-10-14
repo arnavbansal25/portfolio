@@ -211,7 +211,7 @@ const projects = [
       },
     ],
     image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/45120883/376360555-aeb0afb6-a3e8-4b79-81ad-0f012b10e7ea.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241014%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241014T210102Z&X-Amz-Expires=300&X-Amz-Signature=faf63d075149890744f8c10466db6a35c28f3b00a8c4d29dccc92334dffb4b24&X-Amz-SignedHeaders=host",
+      "https://github.com/arnavbansal25/retube/blob/master/src/assets/Screenshot%20from%202024-10-15%2000-40-07.png?raw=true",
     source_code_link: "https://github.com/arnavbansal25/retube",
     demo_link: "https://ab-retube.netlify.app/",
   },
@@ -256,7 +256,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://raw.githubusercontent.com/arnavbansal25/private/refs/heads/main/screenshots/Screenshot%20from%202024-10-15%2000-32-05.png",
+    image:
+      "https://raw.githubusercontent.com/arnavbansal25/private/refs/heads/main/screenshots/Screenshot%20from%202024-10-15%2000-32-05.png",
     source_code_link: "https://github.com/arnavbansal25/private",
     demo_link: "https://private-ab.netlify.app/",
   },
@@ -291,7 +292,7 @@ const projects = [
       },
     ],
     image:
-      "https://private-user-images.githubusercontent.com/45120883/376359745-81ca4ef8-23e8-422e-a4db-b63b35372709.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjg5MzM2MjIsIm5iZiI6MTcyODkzMzMyMiwicGF0aCI6Ii80NTEyMDg4My8zNzYzNTk3NDUtODFjYTRlZjgtMjNlOC00MjJlLWE0ZGItYjYzYjM1MzcyNzA5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE0VDE5MTUyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZjMmJlZmQyZWYzNmI1ODA0NTkxYWM4Y2UzNDJhMjZiZTYxY2Y3ZjcwOTcyMTQ3ZGYwZGY3MjNlNWMyZjRhNDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.xwWjCy3aZLt3ahXOHNU8T6K9kg-vspbXXfQvpXUsIFA",
+      "https://github.com/arnavbansal25/distributed-hyperparameter-tuning/blob/main/Screenshot%20from%202024-10-15%2000-37-13.png?raw=true",
     source_code_link:
       "https://github.com/arnavbansal25/distributed-hyperparameter-tuning",
     demo_link: "https://www.youtube.com/watch?v=RM_JSDS5NuY",
