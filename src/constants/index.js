@@ -211,7 +211,7 @@ const projects = [
       },
     ],
     image:
-      "https://private-user-images.githubusercontent.com/45120883/376360555-aeb0afb6-a3e8-4b79-81ad-0f012b10e7ea.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjg5MzM0NjMsIm5iZiI6MTcyODkzMzE2MywicGF0aCI6Ii80NTEyMDg4My8zNzYzNjA1NTUtYWViMGFmYjYtYTNlOC00Yjc5LTgxYWQtMGYwMTJiMTBlN2VhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE0VDE5MTI0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVjNDM3NDRhNTVhNjFkOWI4MWJmYzgyODJiNjNmMjNkMWZkNThkYzY3NGIyY2Q2MTgwNTE3YzI1ZjhmMWYzYzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.BuG1SC9RMR3qyCrwoZN2_eB45pkE8U8gZ3Wc-v_OoYg",
+      "https://github-production-user-asset-6210df.s3.amazonaws.com/45120883/376360555-aeb0afb6-a3e8-4b79-81ad-0f012b10e7ea.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241014%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241014T210102Z&X-Amz-Expires=300&X-Amz-Signature=faf63d075149890744f8c10466db6a35c28f3b00a8c4d29dccc92334dffb4b24&X-Amz-SignedHeaders=host",
     source_code_link: "https://github.com/arnavbansal25/retube",
     demo_link: "https://ab-retube.netlify.app/",
   },
@@ -256,8 +256,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image:
-      "https://private-user-images.githubusercontent.com/45120883/376359260-a461d403-1207-4f26-9c75-6c711f66083a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjg5MzMwNDIsIm5iZiI6MTcyODkzMjc0MiwicGF0aCI6Ii80NTEyMDg4My8zNzYzNTkyNjAtYTQ2MWQ0MDMtMTIwNy00ZjI2LTljNzUtNmM3MTFmNjYwODNhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE0VDE5MDU0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk0NTAwMTY5NjdiYjFiNjVkN2U1MWQyZDBmNTE3ZTgyMzZlMGFkMDA5ZDgyNTQ0NDE5YzliZmRkOWZjYWQxMTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.dMz6nFri1G6hMQclMsixyc_pTKzhslkfdjDU0_Iqi7w",
+    image: "https://raw.githubusercontent.com/arnavbansal25/private/refs/heads/main/screenshots/Screenshot%20from%202024-10-15%2000-32-05.png",
     source_code_link: "https://github.com/arnavbansal25/private",
     demo_link: "https://private-ab.netlify.app/",
   },
