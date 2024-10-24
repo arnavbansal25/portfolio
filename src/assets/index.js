@@ -28,8 +28,9 @@ import deskera from "./company/deskera.png";
 import linkedin from "./socials/linkedin.svg";
 import githubSvg from "./socials/github.svg";
 import medium from "./socials/medium.svg";
+import resume from "./socials/resume.png";
 
-import liveWeb from "./liveweb.png"
+import liveWeb from "./liveweb.png";
 
 export {
   logo,
@@ -59,5 +60,6 @@ export {
   linkedin,
   githubSvg,
   medium,
-  liveWeb
+  liveWeb,
+  resume,
 };
